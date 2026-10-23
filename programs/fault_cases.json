@@ -1,0 +1,22 @@
+[
+  {"id": 0, "cause": 4, "name": "misaligned LH"},
+  {"id": 1, "cause": 4, "name": "misaligned LW"},
+  {"id": 2, "cause": 4, "name": "misaligned SH suppresses store"},
+  {"id": 3, "cause": 4, "name": "misaligned SW suppresses store"},
+  {"id": 4, "cause": 5, "name": "LW beyond 4KB"},
+  {"id": 5, "cause": 5, "name": "SW beyond 4KB"},
+  {"id": 6, "cause": 5, "name": "LW full-address check"},
+  {"id": 7, "cause": 5, "name": "SW full-address check"},
+  {"id": 8, "cause": 5, "name": "negative LB address"},
+  {"id": 9, "cause": 2, "name": "misaligned JAL suppresses link"},
+  {"id": 10, "cause": 2, "name": "JALR clears only bit zero"},
+  {"id": 11, "cause": 2, "name": "taken misaligned branch"},
+  {"id": 12, "cause": 1, "name": "MUL rejected"},
+  {"id": 13, "cause": 1, "name": "CSR rejected"},
+  {"id": 14, "cause": 1, "name": "FENCE.I rejected"},
+  {"id": 15, "cause": 6, "name": "ECALL"},
+  {"id": 16, "cause": 7, "name": "EBREAK"},
+  {"id": 17, "cause": 3, "name": "out-of-range instruction fetch after link"},
+  {"id": 18, "cause": 4, "name": "faulting load to x0"},
+  {"id": 19, "cause": 4, "name": "data alignment before access priority"}
+]

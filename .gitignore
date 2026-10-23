@@ -1,0 +1,15 @@
+# Reproducible build products and local verification logs
+/build/
+/logs/
+/programs/*.hex
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Editor and operating-system temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

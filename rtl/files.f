@@ -1,0 +1,11 @@
+rtl/rv32i_pkg.sv
+rtl/pc.sv
+rtl/regfile.sv
+rtl/alu.sv
+rtl/imm_gen.sv
+rtl/control_unit.sv
+rtl/branch_unit.sv
+rtl/data_mem.sv
+rtl/instr_mem.sv
+rtl/fault_unit.sv
+rtl/riscv_core.sv
